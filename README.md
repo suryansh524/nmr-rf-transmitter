@@ -77,24 +77,6 @@ producing short RF bursts. The bursts are then amplified for NMR probe excitatio
 
 ---
 
-## Repository Structure
-nmr-pulse-generation/
-│
-├── pico/
-│   └── hahn_echo.py          # MicroPython PIO code for Raspberry Pi Pico
-│
-├── esp32/
-│   └── sketch_mar16a.ino     # Arduino IDE C++ code for ESP32 RMT timers
-│
-├── results/
-│   ├── pico_pulse_output.jpg
-│   ├── esp32_pulse_output.jpg
-│   ├── mixer_output_dbm.jpg
-│   └── rf_burst_zoomed.jpg
-│
-└── README.md
----
-
 ## How to Run
 
 ### ESP32 (Recommended)
